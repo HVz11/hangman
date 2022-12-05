@@ -17,6 +17,7 @@ class Hangman extends Component {
 
   constructor(props) {
     super(props);
+    // eslint-disable-next-line no-undef
     this.state = { nWrong: 0, guessed: new set(), answer: randomWord() };
     this.handleGuess = this.handleGuess.bind(this);
     this.reset = this.reset.bind(this);
@@ -25,6 +26,7 @@ class Hangman extends Component {
   reset() {
     this.setState({
       nWrong: 0,
+      // eslint-disable-next-line no-undef
       guessed: new set(),
       answer: randomWord(),
     });
