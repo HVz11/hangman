@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { randomWord } from "./words";
-import "./Hangman.css";
+import { randomWord } from "./word";
+import "./hangman.css";
 import img0 from "./4.jpg";
 import img1 from "./5.jpg";
 import img2 from "./6.jpg";
